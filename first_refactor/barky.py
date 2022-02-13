@@ -26,8 +26,11 @@ This modular design, which separates concerns, provides opportunities for extens
 
 """
 import os
+from services import commands
 
-from .services.commands import *
+#from .services.commands import *
+#import services.commands
+
 
 
 class Option:
