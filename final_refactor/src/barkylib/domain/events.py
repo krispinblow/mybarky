@@ -35,7 +35,7 @@ class BookmarkEdited(Event):
 
 @dataclass
 class BookmarksListed(Event):
-    bookmarks: list[Bookmark]
+    bookmarks:  list[Bookmark]
 
 
 @dataclass
