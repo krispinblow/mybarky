@@ -6,8 +6,8 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.orm.session import Session
 
 
-from barkylib import config
-from barkylib.adapters import repository
+from src.barkylib import config
+from src.barkylib.adapters import repository
 
 
 class AbstractUnitOfWork(ABC):

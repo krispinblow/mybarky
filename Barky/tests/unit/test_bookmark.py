@@ -1,8 +1,8 @@
 from datetime import date, datetime, timedelta
 import random
 
-from barkylib.domain import events
-from barkylib.domain.models import Bookmark
+from src.barkylib.domain import events
+from src.barkylib.domain.models import Bookmark
 
 ok_urls = ["http://", "https://"]
 
@@ -47,6 +47,5 @@ def test_that_edit_time_is_newer_than_created_time():
 
     # assert
     assert bookmark.date_added < bookmark.date_edited
-
 
 
