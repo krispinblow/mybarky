@@ -1,5 +1,0 @@
-{
-    "python.analysis.extraPaths": [
-        "./second_refactor/src"
-    ]
-}
