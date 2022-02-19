@@ -25,4 +25,3 @@ class AbstractBookMarkAPI(ABC):
     def update(self, bookmark):
         raise NotImplementedError("Derived classes must implement many")
 
-
