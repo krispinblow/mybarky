@@ -3,10 +3,10 @@ from collections import defaultdict
 from datetime import date
 from typing import Dict, List
 import pytest
-from src.barkylib import bootstrap
-from src.barkylib.domain import commands
-from src.barkylib.services import handlers, unit_of_work
-from src.barkylib.adapters import repository
+from barkylib import bootstrap
+from barkylib.domain import commands
+from barkylib.services import handlers, unit_of_work
+from barkylib.adapters import repository
 
 class FakeRepository(repository.AbstractRepository):
     def __init__(self, products):

@@ -98,7 +98,7 @@ class SqlAlchemyRepository(AbstractRepository):
         self.Session.commit()
         pass
 
-    def add_many(self, bookmarks: list[Bookmark]) -> int:
+    def add_many(self, bookmarks: List[Bookmark]) -> int:
         self.Session.add(bookmarks)
         pass
 
@@ -117,5 +117,5 @@ class SqlAlchemyRepository(AbstractRepository):
     def find_first(self, query) -> Bookmark:
         pass
 
-    def find_all(self, query) -> list[Bookmark]:
+    def find_all(self, query) -> List[Bookmark]:
         pass

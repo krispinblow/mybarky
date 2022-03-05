@@ -1,0 +1,6 @@
+{
+    "python.analysis.extraPaths": [
+        "./Barky/src",
+        "./Barky/src"
+    ]
+}

@@ -1,7 +1,7 @@
 import inspect
 from typing import Callable
-from src.barkylib.adapters import orm
-from src.barkylib.services import handlers, messagebus, unit_of_work
+from barkylib.adapters import orm
+from barkylib.services import handlers, messagebus, unit_of_work
 
 
 def bootstrap(

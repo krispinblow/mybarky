@@ -1,7 +1,7 @@
 from abc import ABC
 from datetime import datetime
 from dataclasses import dataclass
-from typing import Optional
+from typing import Optional, List
 
 from .models import Bookmark
 
@@ -35,7 +35,7 @@ class BookmarkEdited(Event):
 
 @dataclass
 class BookmarksListed(Event):
-    bookmarks: list[Bookmark]
+    bookmarks: List[Bookmark]
 
 
 @dataclass
